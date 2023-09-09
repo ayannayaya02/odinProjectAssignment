@@ -1,9 +1,15 @@
 const myLibrary=[];
 
-function Book (){
+function Book (title, author, pages, history){
     //the constructor
+        this.title=title;
+        this.author=author;
+        this.pages=pages;
+        this.history=history;   
 }
 
-function addBookToLibrary(){
-    //do stuff here
+function revealLibrary(){
+    const booksList =document.querySelector(`#table`);
+    booksList.content = ``;
+    
 }

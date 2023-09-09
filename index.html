@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/48086bfa49.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
     <link rel="" href="index.js" />
-    <title>Skeleton</title>
+    <title> Library</title>
   </head>
-  <body>
-    <h1>Library</h1>
+  <body id="info">
+    <hr/>
+    <h1>Library     <i class="fa-solid fa-book-open-reader"></i>
+</h1> 
+
     <form>
       <label for="author">Author:</label>
       <input type="text" id="author" />
@@ -29,7 +35,23 @@
       <input type="checkbox" id="checkbox1" />
       <label for="No">No</label>
       <input type="checkbox" id="checkbox2" />
+   <br/>
+      <input type="button" value="+ More Books">
+      <br/>
+      <input type="button" href="https://github.com/ayannayaya02?tab=repositories" value="Github"/>
+
+    </footer>
     </form>
-    <button>+More Books</button>
+    <header id="list">
+        <ul>Author</ul>
+        <ul>Title</ul>
+        <ul># of pages</ul>
+        <ul>History</ul>
+    </header>
+    <br/>
+    <table id="table">
+
+    </table>
+
   </body>
 </html>

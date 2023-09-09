@@ -11,11 +11,31 @@ padding:5px;
 font-size:var(--font-size);
 background:var(--background);
 font-family:var(--font-family);
+margin-bottom:40px;
+margin-left: 20px;
 }
+
+#info{
+    display:flex;
+
+}
+
+#list{
+    width:80%;
+    border-style: inherit;
+    border-collapse:collaspe;
+    padding:15px;
+    display:flex;
+    flex-direction:row;
+    color:#ffff;
+}
+
 
 h1{
     border:5px;
+    padding:10px;
     outline:none;
+    color:orange;
     text-align:center;
 }
 
@@ -25,11 +45,15 @@ button{
     padding:10px;
     margin:0 auto;
     background:orange;
-    color:white;
+    color:var(--color);
     cursor: pointer;
 }
 
 input{
     display:flex;
     
+}
+
+label{
+    color:orange;
 }
