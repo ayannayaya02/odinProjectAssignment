@@ -1,0 +1,35 @@
+:root{
+    font-family:'Oswald';
+    font-size:20px;
+    font-weight:regular;
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    color:#ffff;
+}
+
+body{
+padding:5px;
+font-size:var(--font-size);
+background:var(--background);
+font-family:var(--font-family);
+}
+
+h1{
+    border:5px;
+    outline:none;
+    text-align:center;
+}
+
+button{
+    display:block;
+    border-radius:15px;
+    padding:10px;
+    margin:0 auto;
+    background:orange;
+    color:white;
+    cursor: pointer;
+}
+
+input{
+    display:flex;
+    
+}
